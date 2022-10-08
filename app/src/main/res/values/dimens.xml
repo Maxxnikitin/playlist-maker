@@ -2,5 +2,6 @@
 <resources>
     <dimen name="text_size_primary">22sp</dimen>
     <dimen name="text_size_settings">16sp</dimen>
+    <dimen name="text_size_stub">40sp</dimen>
     <dimen name="corner_radius_size_primary">16dp</dimen>
 </resources>
