@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="text_size_primary">22sp</dimen>
+    <dimen name="text_size_settings">16sp</dimen>
+    <dimen name="text_size_stub">40sp</dimen>
+    <dimen name="corner_radius_size_primary">16dp</dimen>
+    <dimen name="p8">8dp</dimen>
+    <dimen name="p10">10dp</dimen>
+    <dimen name="p12">12dp</dimen>
+    <dimen name="p14">14dp</dimen>
+    <dimen name="p16">16dp</dimen>
+    <dimen name="p19">19dp</dimen>
+    <dimen name="p20">20dp</dimen>
+    <dimen name="p21">21dp</dimen>
+    <dimen name="p24">24dp</dimen>
+    <dimen name="p28">28dp</dimen>
+    <dimen name="p40">40dp</dimen>
+</resources>
