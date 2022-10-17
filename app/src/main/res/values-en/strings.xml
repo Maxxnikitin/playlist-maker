@@ -7,7 +7,8 @@
     <string name="share_app">Share app</string>
     <string name="write_to_support">Write to support</string>
     <string name="agreement">User agreement</string>
-    <string name="icons_alt">Icon</string>
-    <string name="search_page">This is a Search page</string>
+    <string name="icons_alt">Icon.</string>
+    <string name="clear_btn_alt">Clear button.</string>
+    <string name="search_page">Search</string>
     <string name="library_page">This is a Media library page</string>
 </resources>
