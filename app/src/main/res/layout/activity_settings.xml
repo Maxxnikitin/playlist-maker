@@ -28,6 +28,7 @@
     </FrameLayout>
     <FrameLayout
         style="@style/SettingsItemStyle"
+        android:id="@+id/share_btn"
         >
         <TextView
             style="@style/SettingsTextStyle"
@@ -41,6 +42,7 @@
     </FrameLayout>
     <FrameLayout
         style="@style/SettingsItemStyle"
+        android:id="@+id/support_btn"
         >
         <TextView
             style="@style/SettingsTextStyle"
@@ -54,6 +56,7 @@
     </FrameLayout>
     <FrameLayout
         style="@style/SettingsItemStyle"
+        android:id="@+id/agreement_btn"
         >
         <TextView
             style="@style/SettingsTextStyle"
