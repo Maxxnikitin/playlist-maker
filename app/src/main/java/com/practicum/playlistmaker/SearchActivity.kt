@@ -11,9 +11,9 @@ import android.widget.Button
 import android.widget.EditText
 import android.widget.ImageView
 
-class SearchActivity : AppCompatActivity() {
-    private var inputValue = ""
+var inputValue = ""
 
+class SearchActivity : AppCompatActivity() {
     companion object {
         const val SEARCH_TEXT = "SEARCH_TEXT"
     }
