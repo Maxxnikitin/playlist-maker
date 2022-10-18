@@ -15,4 +15,5 @@
     <dimen name="p24">24dp</dimen>
     <dimen name="p28">28dp</dimen>
     <dimen name="p40">40dp</dimen>
+    <dimen name="p48">48dp</dimen>
 </resources>
