@@ -11,4 +11,8 @@
     <string name="clear_btn_alt">Кнопка очистки.</string>
     <string name="search_page">Поиск</string>
     <string name="library_page">Это страница Медиатеки</string>
+    <string name="practicum_link" translatable="false">https://practicum.yandex.ru/android-developer/</string>
+    <string name="agreement_link" translatable="false">https://yandex.ru/legal/practicum_offer/</string>
+    <string name="email_subject">Сообщение разработчикам и разработчицам приложения Playlist Maker</string>
+    <string name="email_text">Спасибо разработчикам и разработчицам за крутое приложение!</string>
 </resources>
