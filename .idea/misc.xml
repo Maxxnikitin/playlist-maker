@@ -16,8 +16,8 @@
         <entry key="app/src/main/res/drawable/ic_support_icon.xml" value="0.1585" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.18531646728515627" />
         <entry key="app/src/main/res/layout/activity_media_library.xml" value="0.15625" />
-        <entry key="app/src/main/res/layout/activity_search.xml" value="0.1" />
-        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.22578430175781256" />
+        <entry key="app/src/main/res/layout/activity_search.xml" value="0.18414154052734377" />
+        <entry key="app/src/main/res/layout/activity_settings.xml" value="0.1" />
         <entry key="app/src/main/res/layout/activity_settings2.xml" value="0.15625" />
       </map>
     </option>

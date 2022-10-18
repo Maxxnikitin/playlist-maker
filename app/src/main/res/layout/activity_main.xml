@@ -22,18 +22,18 @@
         style="@style/MainBtnStyle"
         android:id="@+id/search_btn"
         android:text="@string/app_button_search"
-        app:icon="@drawable/ic_search_icon"
+        app:icon="@drawable/ic_search"
         />
     <Button
         style="@style/MainBtnStyle"
         android:id="@+id/library_btn"
         android:text="@string/app_button_library"
-        app:icon="@drawable/ic_library_icon"
+        app:icon="@drawable/ic_library"
         />
     <Button
         style="@style/MainBtnStyle"
         android:id="@+id/settings_btn"
         android:text="@string/app_button_settings"
-        app:icon="@drawable/ic_settings_icon"
+        app:icon="@drawable/ic_settings"
         />
 </LinearLayout>

@@ -4,6 +4,7 @@ import android.content.Intent
 import android.net.Uri
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import android.widget.Button
 import android.widget.FrameLayout
 
 class SettingsActivity : AppCompatActivity() {
@@ -14,9 +15,14 @@ class SettingsActivity : AppCompatActivity() {
         val shareBtn = findViewById<FrameLayout>(R.id.share_btn)
         val supportBtn = findViewById<FrameLayout>(R.id.support_btn)
         val agreementBtn = findViewById<FrameLayout>(R.id.agreement_btn)
+        val backBtn = findViewById<Button>(R.id.back_btn)
+
+        backBtn.setOnClickListener {
+            finish()
+        }
 
         shareBtn.setOnClickListener {
-            val text = "https://practicum.yandex.ru/android-developer/"
+            val text = getString(R.string.practicum_link)
             val intent = Intent(Intent.ACTION_SEND)
             intent.putExtra(Intent.EXTRA_TEXT, text)
             intent.type = "text/plain"
@@ -24,8 +30,8 @@ class SettingsActivity : AppCompatActivity() {
         }
 
         supportBtn.setOnClickListener {
-            val subject = "Сообщение разработчикам и разработчицам приложения Playlist Maker"
-            val message = "Спасибо разработчикам и разработчицам за крутое приложение!"
+            val subject = getString(R.string.email_subject)
+            val message = getString(R.string.email_text)
 
             val intent = Intent(Intent.ACTION_SENDTO)
             intent.data = Uri.parse("mailto:")
@@ -37,7 +43,7 @@ class SettingsActivity : AppCompatActivity() {
         }
 
         agreementBtn.setOnClickListener {
-            val url = Uri.parse("https://yandex.ru/legal/practicum_offer/")
+            val url = Uri.parse(getString(R.string.agreement_link))
             val intent = Intent(Intent.ACTION_VIEW, url)
             startActivity(intent)
         }

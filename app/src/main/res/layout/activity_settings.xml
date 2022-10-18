@@ -1,18 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
     style="@style/MainLayoutStyle"
-    android:paddingStart="@dimen/p16"
+    android:paddingStart="0dp"
     android:paddingEnd="@dimen/p12"
     >
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="@dimen/p28"
+        >
         <Button
+            android:id="@+id/back_btn"
             style="@style/HeaderBtnStyle"
-            android:text="@string/app_button_settings"
-            android:minHeight="0dp"
-            android:padding="0dp"
-            android:layout_marginBottom="@dimen/p40"
-            app:icon="@drawable/ic_arrow_back_icon"
             />
+
+        <TextView
+            style="@style/HeaderTextStyle"
+            android:text="@string/app_button_settings"
+            />
+    </LinearLayout>
+
     <FrameLayout
         style="@style/SettingsItemStyle"
         >
@@ -36,7 +43,7 @@
             />
         <ImageView
             style="@style/SettingsIconStyle"
-            android:src="@drawable/ic_share_icon"
+            android:src="@drawable/ic_share"
             android:contentDescription="@string/icons_alt"
             />
     </FrameLayout>
@@ -50,7 +57,7 @@
             />
         <ImageView
             style="@style/SettingsIconStyle"
-            android:src="@drawable/ic_support_icon"
+            android:src="@drawable/ic_support"
             android:contentDescription="@string/icons_alt"
             />
     </FrameLayout>
@@ -64,7 +71,7 @@
             />
         <ImageView
             style="@style/SettingsIconStyle"
-            android:src="@drawable/ic_agreement_icon"
+            android:src="@drawable/ic_agreement"
             android:contentDescription="@string/icons_alt"
             />
     </FrameLayout>
